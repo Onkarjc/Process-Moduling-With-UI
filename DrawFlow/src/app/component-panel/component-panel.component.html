@@ -1,0 +1,39 @@
+<nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Process Modeling</a>
+</nav>
+<mat-sidenav-container>
+
+    <mat-sidenav mode="side" [(opened)]="isOpened">
+
+        <ul>
+
+            <li>
+
+                <!-- <button id="component1" mat-icon-button (click)="toggleBtn()">
+
+                    {{comp1Toggle ? ' indeterminate_check_box' : 'add_box'}}
+                    <app-root></app-root>
+                </button>
+                <div class="toggle" *nglf="comp1Toggle"></div>
+
+            </li>
+
+            <li>
+
+                <button id="component2" mat-icon-button (click)="toggleBtn()">
+
+                    {{comp1Toggle ? ' indeterminate_check_box' : 'add_box'}}
+                    Component 2
+                </button>
+                <div class="toggle" *nglf="comp1Toggle">subcomponent 1</div> -->
+                <app-root></app-root>
+
+            </li>
+        </ul>
+
+    </mat-sidenav>
+
+<mat-sidenav-content><app-grid-component></app-grid-component></mat-sidenav-content>
+
+</mat-sidenav-container>
+

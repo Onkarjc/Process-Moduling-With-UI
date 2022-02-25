@@ -1,0 +1,66 @@
+mat-sidenav-container {
+     height:690px;
+}
+    
+mat-sidenav,mat-sidenav-content{
+    
+    padding: 16px;
+    
+    }
+    
+    mat-sidenav{
+       
+    background: white;
+    width: 250px;
+    box-shadow: 0 0 11px  rgba(33, 33, 33, .2) ;
+    
+    }
+    
+    .example-tree-invisible {
+    
+    display: none;
+    }
+    
+    .example-tree ul,
+    .example-tree li{
+    
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+    
+    }
+    
+    /*
+    * This padding sets alignment of the nested nodes.
+    
+    */
+    
+    .example-tree .mat-nested-tree-node div[role=group] {
+         padding-left: 40px;
+    }
+
+    /*
+        padding for leaf nodes.
+        Leaf nodes need to have 
+    */
+
+    .example-tree div[role=group]> .mat-tree-node {
+         padding-left: 40px;
+        }
+    
+    .mat-icon-button{
+    
+    background-color: white;
+    }
+    ul{
+        list-style: none;
+    }
+    
+    .toggle {
+    width:150px;
+    height:auto;
+    background: rgb(240, 237 ,237) ;
+    margin-left: 20px;
+    }
+    
+    
